@@ -41,9 +41,98 @@ h3::after {
 }
 
 /* --- GALÉRIA --- */
-.gallery-container { position: relative; max-width: 1000px; margin: 0 auto; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-.gallery-slides { display: none; width: 100%; }
-.gallery-slides img { width: 100%; height: 600px; object-fit: cover; display: block; }
+/* 1. A galéria fix méretű külső doboza fekete háttérrel */
+.gallery-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 550px;             /* FIX MAGASSÁG: A konténer mérete fix marad */
+    background-color: #000000; /* TISZTA FEKETE HÁTTÉR: Az üres területek feketék lesznek */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+/* 2. A diák tárolója - kitölti a fix dobozt */
+.gallery-slides {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* 3. A KÉPEK IGAZÍTÁSA: GARANTÁLTAN TELJES KÉP LEVÁGÁS NÉLKÜL */
+.gallery-slides img {
+    width: 100%;
+    height: calc(100% - 40px); /* Biztosítunk 40px helyet alul a feliratnak */
+    object-fit: contain;       /* JAVÍTVA: A teljes képet mutatja, SOHA NEM VÁGJA LE */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* 4. A feliratcsík - fixen a fekete doboz aljára rögzítve */
+.caption-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    color: white;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+/* 5. A navigációs nyilak - FIXEN KÖZÉPEN */
+.gallery-nav {
+    position: absolute;
+    top: 50%;                  /* Függőlegesen hajszálpontosan középre teszi */
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-sizing: border-box;
+    pointer-events: none;      /* Nem takarja le a képet */
+    z-index: 10;               /* Biztosan a kép felett marad */
+}
+
+.prev, .next {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 12px 18px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    user-select: none;
+    transition: background-color 0.2s;
+    pointer-events: auto;      /* Kattintható marad */
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(231, 76, 60, 0.9); /* Rámutatáskor az akcentus színre vált (pl. piros) */
+}
+
+/* 6. Mobiloptimalizálás: telefonon alacsonyabb a fix konténer, de a szabályok ugyanazok */
+@media (max-width: 768px) {
+    .gallery-container {
+        height: 380px;         /* Telefonon fixen 380px magas lesz */
+    }
+    .prev, .next {
+        padding: 8px 14px;
+        font-size: 18px;
+    }
+}
+
 .gallery-nav { position: absolute; top: 50%; width: 100%; display: flex; justify-content: space-between; transform: translateY(-50%); padding: 0 10px; z-index: 10; } /* FIX 3: Navigációs gombok előtérbe hozása */
 .prev, .next { cursor: pointer; background-color: rgba(0, 0, 0, 0.6); color: white; font-weight: bold; font-size: 20px; padding: 12px 18px; border-radius: 50%; border: none; }
 .caption-container { text-align: center; background-color: rgba(0,0,0,0.8); padding: 10px; color: white; }
