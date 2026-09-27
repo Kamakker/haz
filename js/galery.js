@@ -8,7 +8,7 @@ const utcafrontiKepek = [
     "kert/fedettterasz.jpg", "kert/parkolo.jpg", "kert/kukatarolo.jpg", "kert/kukatarolokerttol.jpg", 
     "kert/kukataroloutcarol.jpg", "kert/elokertb.jpg", "kert/elokertb1.jpg", "kert/teraszhkiskerth.jpg", 
     "kert/teraszkiskerte.jpg", "nagyhaz/nhalarajzmeretnelkul.jpg", "nagyhaz/nhalarajzmeret.jpg", "nagyhaz/nhaparkolof.jpg",  "nagyhaz/nheloszoba.jpg",
-    "nagyhaz/nheloszobabejarat.jpg", "nagyhaz/nhfurdoszoba.jpg", "nagyhaz/nhnfurdoszobakad.jpg", "nagyhaz/nhnfurdoszobab.jpg",
+    "nagyhaz/nheloszobabejarat.jpg", "nagyhaz/nheloszobabejarat1.jpg", "nagyhaz/nhfurdoszoba.jpg", "nagyhaz/nhnfurdoszobakad.jpg", "nagyhaz/nhnfurdoszobab.jpg",
     "nagyhaz/nhnfurdoszwc.jpg", "nagyhaz/nhnfurdozuhany.jpg", "nagyhaz/nhgepeszeti.jpg", "nagyhaz/nhkfurdo.jpg", "nagyhaz/nhkfurdojo.jpg", "nagyhaz/nhkisfurdobo.jpg",
     "nagyhaz/nhkisterasz.jpg", "nagyhaz/nhkisteraszlepcsohf.jpg", "nagyhaz/nhkisteraszuf.jpg", 
     "nagyhaz/nhkonyha.jpg", "nagyhaz/nhkonyhabo.jpg", "nagyhaz/nhkonyhaj.jpg", "nagyhaz/nhkonyhajo.jpg",  
