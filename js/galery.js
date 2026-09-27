@@ -7,14 +7,10 @@ const utcafrontiKepek = [
     "kert/muholdaskep.jpg", "kert/utcafrontj.jpg", "kert/utcafrontb.jpg", "kert/nhkiskapu.jpg", 
     "kert/fedettterasz.jpg", "kert/parkolo.jpg", "kert/kukatarolo.jpg", "kert/kukatarolokerttol.jpg", 
     "kert/kukataroloutcarol.jpg", "kert/elokertb.jpg", "kert/elokertb1.jpg", "kert/teraszhkiskerth.jpg", 
-    "kert/teraszkiskerte.jpg", "nagyhaz/nhalarajzmeretnelkul.jpg", "nagyhaz/nhalarajzmeret.jpg", "nagyhaz/nhaparkolof.jpg",  "nagyhaz/nheloszoba.jpg",
-    "nagyhaz/nheloszobabejarat.jpg", "nagyhaz/nhfurdoszoba.jpg", "nagyhaz/nhnfurdoszobakad.jpg", "nagyhaz/nhnfurdoszobab.jpg",
-    "nagyhaz/nhnfurdoszwc.jpg", "nagyhaz/nhnfurdozuhany.jpg", "nagyhaz/nhgepeszeti.jpg", "nagyhaz/nhkfurdo.jpg", "nagyhaz/nhkfurdojo.jpg", "nagyhaz/nhkisfurdobo.jpg",
-    "nagyhaz/nhkisterasz.jpg", "nagyhaz/nhkisteraszlepcsohf.jpg", "nagyhaz/nhkisteraszuf.jpg", 
-    "nagyhaz/nhkonyha.jpg", "nagyhaz/nhkonyhabo.jpg", "nagyhaz/nhkonyhaj.jpg", "nagyhaz/nhkonyhajo.jpg",  
-     "nagyhaz/nhnappali.jpg", "nagyhaz/nhnappalib.jpg", "nagyhaz/nhnappalibejarat.jpg", "nagyhaz/nhnappalij.jpg", 
-     "nagyhaz/nhszobajo.jpg", "nagyhaz/nhszobab.jpg", "nagyhaz/nhszobab.jpg", "nagyhaz/nhszobasz.jpg", 
-    "nagyhaz/nhszobabo.jpg", "nagyhaz/nhszobaj.jpg", 
+    "kert/teraszkiskerte.jpg", "nagyhaz/nhalarajzmeretnelkul.jpg", "nagyhaz/nhalarajzmeret.jpg", "nagyhaz/nhaparkolof.jpg",  "nagyhaz/nheloszoba.jpg", "nagyhaz/nheloszobabejarat.jpg",      
+	"nagyhaz/nhnappalib.jpg", "nagyhaz/nhnappalibejarat.jpg", "nagyhaz/nhnappalij.jpg", "nagyhaz/nhszobab.jpg", "nagyhaz/nhszobabo.jpg", "nagyhaz/nhszobaj.jpg", "nagyhaz/nhszobajo.jpg", "nagyhaz/nhszobasz.jpg", "nagyhaz/nhkisszoba.jpg", "nagyhaz/nhkisszobabejarat.jpg", "nagyhaz/nhfurdoszoba.jpg", "nagyhaz/nhnfurdoszobab.jpg", "nagyhaz/nhnfurdoszwc.jpg", "nagyhaz/nhnfurdozuhany.jpg", "nagyhaz/nhkonyha.jpg",
+	"nagyhaz/nhkonyhabo.jpg", "nagyhaz/nhkonyhaj.jpg", "nagyhaz/nhkonyhajo.jpg", "nagyhaz/nhgepeszeti.jpg", "nagyhaz/nhkfurdo.jpg", "nagyhaz/nhkfurdojo.jpg", "nagyhaz/nhkisfurdobo.jpg", "nagyhaz/nhkisfurdoj.jpg", 
+	"nagyhaz/nhkisterasz.jpg", "nagyhaz/nhkisteraszlepcsohf.jpg",
 ];
 
 const utcafrontiFeliratok = [
@@ -22,36 +18,30 @@ const utcafrontiFeliratok = [
     "Fedett terasz részlet", "Kialakított parkoló", "Kukatároló", "Kukatároló a kert felől", 
     "Kukatároló az utca felől", "Előkert bal oldali nézet", "Előkert bal oldali nézet részlet", "Terasz melletti kiskert hátulról", 
     "Terasz melletti kiskert elölről", "Ucafronti ház alaprajza méretek nélkül", "Ucafronti ház alaprajza méretekkel",
-    "Ucafronti ház autóparkoló felőli nézet",  "Ucafronti ház előszoba", "Ucafronti ház főbejárat",
-    "Ucafronti ház fürdőszoba", "Ucafronti ház fürdőszoba sarokkád", "Ucafronti ház fürdőszoba bútor", 
-    "Ucafronti ház fürdőszoba részlet", "Ucafronti ház fürdő szekrény", "Ucafronti ház gépészeti helyiség", 
-    "Ucafronti ház kis lépcsőfok a terasznál", "Ucafronti ház kis terasz", "Ucafronti ház kis terasz korláttal", 
-    "Ucafronti ház kisebbik fürdőszoba", "Ucafronti ház kis fürdő zuhanyzó", "Ucafronti ház kiskapu",
-    "Ucafronti ház modern konyha", "Ucafronti ház konyhabútor", "Ucafronti ház konyha gépesítve", 
-    "Ucafronti ház konyha és étkező", "Ucafronti ház konyha részlet", "Ucafronti ház tágas nappali", 
-    "Nagy ház nappali ablakok", "Nagy ház nappali sarok", "Nagy ház nappali a folyosóról", 
-    "Ucafronti ház oldalsó homlokzat", "Ucafronti ház szoba 1", "Ucafronti ház szoba 2", 
-    "Ucafronti ház szoba 3", "Ucafronti ház hálószoba", "NUcafronti ház teraszlépcső",
-    "Ucafronti ház új homlokzati rész", "Ucafronti ház utcafronti kép"
+    "Ucafronti ház autóparkoló felőli nézet",  "Ucafronti ház előszoba", "Ucafronti ház előszoba bejárat", "Ucafronti ház nappali", "Ucafronti ház nappali bejárat", "Ucafronti ház nappali jobb oldal", "Ucafronti ház hálószoba",
+	"Ucafronti ház hálószoba baloldal","Ucafronti ház hálószoba jobboldal", "Ucafronti ház hálószoba jobboldal1",
+	"Ucafronti ház hálószoba ablak", "Kisszoba gardrob szekrénye", "Kisszoba bejárat", "Nagy fürdőszoba", "Nagy fürdőszoba mosdó", "Nagy fürdőszoba WC", "Nagy fürdőszoba zuhanyzó", "Nagy ház konyha", "Nagy ház konyha baloldal",
+	"Nagy ház konyha jobboldal", "Nagy ház konyha jobboldal1", "Nagy ház gépészeti helyiség", "Kisebbik fürdőszoba zuhanykabin",  "Kisebbik fürdőszoba mosdó", "Kisebbik fürdőszoba tisztítóanyag és eszköz tároló sarok",  "Kisebbik fürdőszoba WC sarok", "Nagy ház kis fedett terasz", "Teraszlépcső kert felé", "Teraszlépcső utca felé",
 ];
 
 // --- MÁSODIK (KIS) HÁZ GALÉRIÁJA ---
 const masodikHazKepek = [
-    "kishaz/khalaprajz.jpg", "kishaz/kheloszoba.jpg", "kishaz/kheloszobaj.jpg", "kishaz/khelszekr.jpg", 
-    "kishaz/khelszekrb.jpg", "kishaz/khelszekrj.jpg", "kishaz/khkfurdo.jpg", "kishaz/khkfurdob.jpg",
-    "kishaz/khkfurdoh.jpg", "kishaz/khnappalibejarat.jpg", "kishaz/khnappalikonyha.jpg", "kishaz/khnappalikonyhab.jpg", 
-    "kishaz/kkhnappalikonyhaj.jpg", "kishaz/khnfurdob.jpg", "kishaz/khkfurdoj.jpg", "kishaz/khnfurdomosdo.jpg",      
-    "kishaz/khszoba.jpg", "kishaz/khszoba2b.jpg", "kishaz/khszoba2h.jpg", "kishaz/khszoba2szekreny.jpg", 
-    "kishaz/khszoba2szekrenyny.jpg", "kishaz/khszobaabejarattol.jpg", "kishaz/khszobabejarat.jpg"
+    "kishaz/khalaprajz.jpg", "kishaz/khfront.jpg", "kishaz/kheloszoba.jpg", "kishaz/kheloszobaj.jpg", "kishaz/khelszekr.jpg", 
+    "kishaz/khelszekrb.jpg", "kishaz/khelszekrj.jpg", "kishaz/khkfurdo.jpg", "kishaz/khkfurdob.jpg", "kishaz/khkfurdoh.jpg",
+    "kishaz/khnappalibejarat.jpg", "kishaz/khnappalikonyha.jpg", "kishaz/khnappalikonyhaablakf.jpg", "kishaz/khnappalikonyhab.jpg", "kishaz/khnappalikonyhab1.jpg", "kishaz/khnappalikonyhaj.jpg", "kishaz/khnfurdomosdo1.jpg", "kishaz/khnfurdob.jpg", "kishaz/khnfurdoj.jpg", 
+	"kishaz/khszoba.jpg", "kishaz/khszobaabejarattol.jpg",  "kishaz/khszobabejarat.jpg",  "kishaz/khszobabo.jpg", 
+	"kishaz/khszoba2b.jpg", "kishaz/khszoba2h.jpg", "kishaz/khszoba2szekreny.jpg", "kishaz/khszoba2szekrenyny.jpg",   
 ];
 
+
 const masodikHazFeliratok = [
-    "Kis ház alaprajz", "Kis ház előszoba", "Kis ház előszoba jobb oldal", "Kis ház előszoba szekrény", 
+    "Kis ház alaprajz", "Kis ház front", "Kis ház előszoba", "Kis ház előszoba jobb oldal", "Kis ház előszoba szekrény", 
     "Kis ház előszoba szekrény baloldal", "Kis ház előszoba szekrény jobb oldala", "Kis ház kis fürdőszoba", "Kis ház kis fürdőszoba baloldal",     
-    "Kis ház kis fürdőszoba hátolda", "Kis ház nappali bejárat", "Kis ház nappali konyha", "Kis ház nappali konyha baloldal", 
-    "Kis ház nappali konyha jobb oldala", "Kis ház fürdőszoba baloldal", "Kis ház 1-es szoba", "Kis ház fürdőszobai mosdó",
-    "Kis ház szoba", "Kis ház szoba részlet", "Kis ház hálószoba ablak felől", "Beépített szekrény", 
-    "Beépített szekrény nyitott állapotban", "Kis ház szobabejárat a folyosóról", "Kis ház szobabejárat"
+    "Kis ház kis fürdőszoba hátolda", "Kis ház nappali bejárat", "Kis ház nappali konyha", "Kis ház nappali konyha ablak", "Kis ház nappali konyha baloldal",
+	"Kis ház nappali konyha baloldal1", "Kis ház nappali konyha jobb oldala", "Kis ház nagy fürdőszoba",
+	"Kis ház nagy fürdőszoba baloldal",  "Kis ház nagy fürdőszoba zuhanyzók", "Kis ház szoba", "Kis ház szoba baloldal", "Kis ház szoba bejárat", 
+	"Kis ház hálószoba ablak felé", "Kis ház hálószoba1 baloldal", "Kis ház hálószoba1 hátoldal", "Kis ház hálószoba1 beépített szekrény",
+	"Kis ház hálószoba1 beépített szekrény nyitott állapotban",
 ];
 
 // Indexek nyomon követése külön a két galériához
@@ -118,3 +108,4 @@ function showSlidesGeneric(osztalyNev, aktualisIndex) {
     }
     slides[aktualisIndex - 1].style.display = "block";
 }
+
