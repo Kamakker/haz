@@ -7,18 +7,14 @@ const utcafrontiKepek = [
     "kert/muholdaskep.jpg", "kert/utcafrontj.jpg", "kert/utcafrontb.jpg", "kert/nhkiskapu.jpg", 
     "kert/fedettterasz.jpg", "kert/parkolo.jpg", "kert/kukatarolo.jpg", "kert/kukatarolokerttol.jpg", 
     "kert/kukataroloutcarol.jpg", "kert/elokertb.jpg", "kert/elokertb1.jpg", "kert/teraszhkiskerth.jpg", 
-    "kert/teraszkiskerte.jpg", "nagyhaz/nhalarajzmeretnelkul.jpg", "nagyhaz/nhalarajzmeret.jpg",
-    "nagyhaz/nhaparkolof.jpg",  "nagyhaz/nheloszoba.jpg", "nagyhaz/nh-bejarat.jpg",
-    "nagyhaz/nh-furdosz.jpg", "nagyhaz/nh-furdosz1.jpg", "nagyhaz/nh-furdosz2.jpg", 
-    "nagyhaz/nh-furdosz3.jpg", "nagyhaz/nh-furdosz4.jpg", "nagyhaz/nh-gepeszeti.jpg", 
-    "nagyhaz/nh-kis_telepcsohf.jpg", "nagyhaz/nh-kis_terasz.jpg", "nagyhaz/nh-kis_terasz1.jpg", 
-    "nagyhaz/nh-kis-furdo.jpg", "nagyhaz/nh-kis-furdo1.jpg", "nagyhaz/nh-kiskapu.jpg",
-    "nagyhaz/nh-konyha.jpg", "nagyhaz/nh-konyha1.jpg", "nagyhaz/nh-konyha2.jpg", 
-    "nagyhaz/nh-konyha3.jpg", "nagyhaz/nh-konyha4.jpg", "nagyhaz/nh-nappali.jpg", 
-    "nagyhaz/nh-nappali1.jpg", "nagyhaz/nh-nappali2.jpg", "nagyhaz/nh-nappali3.jpg", 
-    "nagyhaz/nh-oldalról.jpg", "nagyhaz/nh-szoba.jpg", "nagyhaz/nh-szoba1.jpg", 
-    "nagyhaz/nh-szoba2.jpg", "nagyhaz/nh-szoba3.jpg", "nagyhaz/nh-teraszlepcso.jpg",
-    "nagyhaz/nh-uj.jpg", "nagyhaz/nh-utcaf-j.jpg"
+    "kert/teraszkiskerte.jpg", "nagyhaz/nhalarajzmeretnelkul.jpg", "nagyhaz/nhalarajzmeret.jpg", "nagyhaz/nhaparkolof.jpg",  "nagyhaz/nheloszoba.jpg",
+    "nagyhaz/nheloszobabejarat.jpg", "nagyhaz/nhfurdoszoba.jpg", "nagyhaz/nhnfurdoszobakad.jpg", "nagyhaz/nhnfurdoszobab.jpg",
+    "nagyhaz/nhnfurdoszwc.jpg", "nagyhaz/nhnfurdozuhany.jpg", "nagyhaz/nhgepeszeti.jpg", "nagyhaz/nhkfurdo.jpg", "nagyhaz/nhkfurdojo.jpg", "nagyhaz/nhkisfurdobo.jpg",
+    "nagyhaz/nhkisterasz.jpg", "nagyhaz/nhkisteraszlepcsohf.jpg", "nagyhaz/nhkisteraszuf.jpg", 
+    "nagyhaz/nhkonyha.jpg", "nagyhaz/nhkonyhabo.jpg", "nagyhaz/nhkonyhaj.jpg", "nagyhaz/nhkonyhajo.jpg",  
+     "nagyhaz/nhnappali.jpg", "nagyhaz/nhnappalib.jpg", "nagyhaz/nhnappalibejarat.jpg", "nagyhaz/nhnappalij.jpg", 
+     "nagyhaz/nhszobajo.jpg", "nagyhaz/nhszobab.jpg", "nagyhaz/nhszobab.jpg", "nagyhaz/nhszobasz.jpg", 
+    "nagyhaz/nhszobabo.jpg", "nagyhaz/nhszobaj.jpg", 
 ];
 
 const utcafrontiFeliratok = [
