@@ -5,7 +5,7 @@
 // --- UTCAFRONTI HÁZ ÉS KERT GALÉRIÁJA ---
 const utcafrontiKepek = [
     "kert/muholdaskep.jpg", "kert/utcafrontj.jpg", "kert/utcafrontb.jpg", "kert/nhkiskapu.jpg", 
-    "kert/fedettterasz.jpg", "parkolo.jpg", "kert/kukatarolo.jpg", "kert/kukatarolokerttol.jpg", 
+    "kert/fedettterasz.jpg", "kert/parkolo.jpg", "kert/kukatarolo.jpg", "kert/kukatarolokerttol.jpg", 
     "kert/kukataroloutcarol.jpg", "kert/elokertb.jpg", "kert/elokertb1.jpg", "kert/teraszhkiskerth.jpg", 
     "kert/teraszkiskerte.jpg", "nagyhaz/nhalarajzmeretnelkul.jpg", "nagyhaz/nhalarajzmeret.jpg",
     "nagyhaz/nh-a_parkolof.jpg", "nagyhaz/nh-bejarat.jpg", "nagyhaz/nh-eloszoba.jpg", 
@@ -22,21 +22,21 @@ const utcafrontiKepek = [
 ];
 
 const utcafrontiFeliratok = [
-    "Műholdas felvétel a telekről", "Utcafronti nézet jobb oldal", "Utcafronti nézet bal oldal", "Nagy ház kiskapu", 
+    "Műholdas felvétel a telekről", "Utcafronti nézet jobb oldal", "Utcafronti nézet bal oldal", "Kiskapu", 
     "Fedett terasz részlet", "Kialakított parkoló", "Kukatároló", "Kukatároló a kert felől", 
     "Kukatároló az utca felől", "Előkert bal oldali nézet", "Előkert bal oldali nézet részlet", "Terasz melletti kiskert hátulról", 
-    "Terasz melletti kiskert szemből", "Nagy ház alaprajza méretek nélkül", "Nagy ház alaprajza méretekkel",
-    "Nagy ház autóparkoló felőli nézet", "Nagy ház főbejárat", "Nagy ház előszoba", 
-    "Nagy ház fürdőszoba", "Nagy ház fürdőszoba sarokkád", "Nagy ház fürdőszoba bútor", 
-    "Nagy ház fürdőszoba részlet", "Nagy ház fürdő szekrény", "Nagy ház gépészeti helyiség", 
-    "Nagy ház kis lépcsőfok a terasznál", "Nagy ház kis terasz", "Nagy ház kis terasz korláttal", 
-    "Nagy ház kisebbik fürdőszoba", "Nagy ház kis fürdő zuhanyzó", "Nagy ház kiskapu",
-    "Nagy ház modern konyha", "Nagy ház konyhabútor", "Nagy ház konyha gépesítve", 
-    "Nagy ház konyha és étkező", "Nagy ház konyha részlet", "Nagy ház tágas nappali", 
+    "Terasz melletti kiskert elölről", "Ucafronti ház alaprajza méretek nélkül", "Ucafronti ház alaprajza méretekkel",
+    "Ucafronti ház autóparkoló felőli nézet", "Ucafronti ház főbejárat", "Ucafronti ház előszoba", 
+    "Ucafronti ház fürdőszoba", "Ucafronti ház fürdőszoba sarokkád", "Ucafronti ház fürdőszoba bútor", 
+    "Ucafronti ház fürdőszoba részlet", "Ucafronti ház fürdő szekrény", "Ucafronti ház gépészeti helyiség", 
+    "Ucafronti ház kis lépcsőfok a terasznál", "Ucafronti ház kis terasz", "Ucafronti ház kis terasz korláttal", 
+    "Ucafronti ház kisebbik fürdőszoba", "Ucafronti ház kis fürdő zuhanyzó", "Ucafronti ház kiskapu",
+    "Ucafronti ház modern konyha", "Ucafronti ház konyhabútor", "Ucafronti ház konyha gépesítve", 
+    "Ucafronti ház konyha és étkező", "Ucafronti ház konyha részlet", "Ucafronti ház tágas nappali", 
     "Nagy ház nappali ablakok", "Nagy ház nappali sarok", "Nagy ház nappali a folyosóról", 
-    "Nagy ház oldalsó homlokzat", "Nagy ház szoba 1", "Nagy ház szoba 2", 
-    "Nagy ház szoba 3", "Nagy ház hálószoba", "Nagy ház teraszlépcső",
-    "Nagy ház új homlokzati rész", "Nagy ház utcafronti kép"
+    "Ucafronti ház oldalsó homlokzat", "Ucafronti ház szoba 1", "Ucafronti ház szoba 2", 
+    "Ucafronti ház szoba 3", "Ucafronti ház hálószoba", "NUcafronti ház teraszlépcső",
+    "Ucafronti ház új homlokzati rész", "Ucafronti ház utcafronti kép"
 ];
 
 // --- MÁSODIK (KIS) HÁZ GALÉRIÁJA ---
