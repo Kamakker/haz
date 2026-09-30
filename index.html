@@ -18,23 +18,46 @@
 		<script type="text/javascript" src="js/galery.js" defer></script>
 
 		<!-- Google Strukturált Adatok -->
-		    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Két családi ház 2700nm telken Iváncsán",
-      "description": "Eladó két különálló családi ház Iváncsán egy hatalmas telken. Modern fűtésrendszer, hőszivattyús klímák.",
-      "image": "https://kamakker.github.io/haz/img/kert/utcafrontj.jpg",
-      "offers": {
-        "@type": "Offer",
-        "price": "160000000",
-        "priceCurrency": "HUF",
-        "priceValidUntil": "2027-12-31",
-        "availability": "https://schema.org",
-        "url": "https://kamakker.github.io/haz/"
-      }
-    }
-    </script>
+		<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "RealEstateListing",
+		  "name": "Két családi ház 2700nm telken Iváncsán",
+		  "description": "Eladó két különálló családi ház Iváncsán egy hatalmas telken. Modern fűtésrendszer, hőszivattyús klímák.",
+		  "image": "https://kamakker.github.io/haz/img/kert/utcafrontj.jpg",
+		  "datePosted": "2026-09-29",
+		  "mainEntity": {
+			"@type": "SingleFamilyResidence",
+			"name": "Kétgenerációs, modern családi házak",
+			"address": {
+			  "@type": "PostalAddress",
+			  "addressLocality": "Iváncsa",
+			  "addressRegion": "Fejér Megye",
+			  "addressCountry": "HU"
+			},
+			"numberOfRooms": 4,
+			"floorSize": {
+			  "@type": "QuantitativeValue",
+			  "value": 196,
+			  "unitCode": "MTK"
+			}
+		  },
+		  "offers": {
+			"@type": "Offer",
+			"price": "160000000",
+			"priceCurrency": "HUF",
+			"validFrom": "2026-09-29",
+			"priceSpecification": {
+			  "@type": "PriceSpecification",
+			  "price": "160000000",
+			  "priceCurrency": "HUF",
+			  "valueAddedTaxIncluded": true,
+			  "priceValidUntil": "2027-12-31"
+			},
+			"url": "https://kamakker.github.io/haz/"
+		  }
+		}
+		</script>
 
 		<!-- Közösségi média megjelenés (Facebook, Viber megosztáshoz) -->
 		<meta property="og:type" content="website">
