@@ -12,7 +12,7 @@ body { color: var(--dark); line-height: 1.6; background-color: #fff; }
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
     height: 50vh; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px;
 }
-.hero h1 { font-size: 2.5rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.6); }
+.hero h1 { font-size: 2.3rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.6); }
 .price-tag { background-color: var(--accent); padding: 8px 20px; border-radius: 5px; margin-top: 15px; font-weight: bold; font-size: 1.4rem; }
 section { padding: 40px 0; border-bottom: 1px solid #eee; }
 h2 { color: var(--primary); margin-bottom: 20px; position: relative; padding-bottom: 10px; }
