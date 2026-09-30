@@ -4,24 +4,24 @@
 
 // --- UTCAFRONTI HÁZ ÉS KERT GALÉRIÁJA ---
 const utcafrontiKepek = [
-    "kert/muholdaskep.jpg", "kert/utcafrontj.jpg", "kert/utcafrontb.jpg", "kert/nhkiskapu.jpg", 
+    "kert/muholdaskep.jpg", "nagyhaz/nhalarajzmeretnelkul.jpg", "nagyhaz/nhalarajzmeret.jpg", "kert/utcafrontj.jpg", "kert/utcafrontb.jpg", "kert/nhkiskapu.jpg", 
     "kert/fedettterasz.jpg", "kert/parkolo.jpg", "kert/kukatarolo.jpg", "kert/kukatarolokerttol.jpg", 
     "kert/kukataroloutcarol.jpg", "kert/elokertb.jpg", "kert/elokertb1.jpg", "kert/teraszhkiskerth.jpg", 
-    "kert/teraszkiskerte.jpg", "nagyhaz/nhalarajzmeretnelkul.jpg", "nagyhaz/nhalarajzmeret.jpg", "nagyhaz/nhaparkolof.jpg",  "nagyhaz/nheloszoba.jpg", "nagyhaz/nheloszobabejarat.jpg",      
+    "kert/teraszkiskerte.jpg",  "nagyhaz/nhaparkolof.jpg",  "nagyhaz/nheloszoba.jpg", "nagyhaz/nheloszobabejarat.jpg",      
 	"nagyhaz/nhnappalib.jpg", "nagyhaz/nhnappalibejarat.jpg", "nagyhaz/nhnappalij.jpg", "nagyhaz/nhszobab.jpg", "nagyhaz/nhszobabo.jpg", "nagyhaz/nhszobaj.jpg", "nagyhaz/nhszobajo.jpg", "nagyhaz/nhszobasz.jpg", "nagyhaz/nhkisszoba.jpg", "nagyhaz/nhkisszobabejarat.jpg", "nagyhaz/nhfurdoszoba.jpg", "nagyhaz/nhnfurdoszobab.jpg", "nagyhaz/nhnfurdoszwc.jpg", "nagyhaz/nhnfurdozuhany.jpg", "nagyhaz/nhkonyha.jpg",
 	"nagyhaz/nhkonyhabo.jpg", "nagyhaz/nhkonyhaj.jpg", "nagyhaz/nhkonyhajo.jpg", "nagyhaz/nhgepeszeti.jpg", "nagyhaz/nhkfurdo.jpg", "nagyhaz/nhkfurdojo.jpg", "nagyhaz/nhkisfurdobo.jpg", "nagyhaz/nhkisfurdoj.jpg", 
 	"nagyhaz/nhkisterasz.jpg", "nagyhaz/nhkisteraszlepcsohf.jpg",
 ];
 
 const utcafrontiFeliratok = [
-    "Műholdas felvétel a telekről", "Utcafronti nézet jobb oldal", "Utcafronti nézet bal oldal", "Kiskapu", 
-    "Fedett terasz részlet", "Kialakított parkoló", "Kukatároló", "Kukatároló a kert felől", 
-    "Kukatároló az utca felől", "Előkert bal oldali nézet", "Előkert bal oldali nézet részlet", "Terasz melletti kiskert hátulról", 
-    "Terasz melletti kiskert elölről", "Ucafronti ház alaprajza méretek nélkül", "Ucafronti ház alaprajza méretekkel",
-    "Ucafronti ház autóparkoló felőli nézet",  "Ucafronti ház előszoba", "Ucafronti ház előszoba bejárat", "Ucafronti ház nappali", "Ucafronti ház nappali bejárat", "Ucafronti ház nappali jobb oldal", "Ucafronti ház hálószoba",
-	"Ucafronti ház hálószoba baloldal","Ucafronti ház hálószoba jobboldal", "Ucafronti ház hálószoba jobboldal1",
-	"Ucafronti ház hálószoba ablak", "Kisszoba gardrob szekrénye", "Kisszoba bejárat", "Nagy fürdőszoba", "Nagy fürdőszoba mosdó", "Nagy fürdőszoba WC", "Nagy fürdőszoba zuhanyzó", "Nagy ház konyha", "Nagy ház konyha baloldal",
-	"Nagy ház konyha jobboldal", "Nagy ház konyha jobboldal1", "Nagy ház gépészeti helyiség", "Kisebbik fürdőszoba zuhanykabin",  "Kisebbik fürdőszoba mosdó", "Kisebbik fürdőszoba tisztítóanyag és eszköz tároló sarok",  "Kisebbik fürdőszoba WC sarok", "Nagy ház kis fedett terasz", "Teraszlépcső kert felé", "Teraszlépcső utca felé",
+    "Műholdas felvétel a telekről", "Ucafronti ház alaprajza méretek nélkül", "Ucafronti ház alaprajza méretekkel", "Utcafronti nézet jobb oldal", "Utcafronti nézet bal oldal", "Kiskapu", 
+    "Fedett terasz részlet", "Kialakított parkoló", "Kukatároló", "Kukatároló a kert felől", "Kukatároló az utca felől", "Előkert bal oldali nézet",
+    "Előkert bal oldali nézet részlet", "Terasz melletti kiskert hátulról", "Terasz melletti kiskert elölről", "Ucafronti ház autóparkoló felőli nézet",  "Ucafronti ház előszoba",
+    "Ucafronti ház előszoba bejárat", "Ucafronti ház nappali", "Ucafronti ház nappali bejárat", "Ucafronti ház nappali jobb oldal", "Ucafronti ház hálószoba",
+	"Ucafronti ház hálószoba baloldal","Ucafronti ház hálószoba jobboldal", "Ucafronti ház hálószoba jobboldal1", "Ucafronti ház hálószoba ablak", "Kisszoba gardrob szekrénye",
+	"Kisszoba bejárat", "Nagy fürdőszoba", "Nagy fürdőszoba mosdó", "Nagy fürdőszoba WC", "Nagy fürdőszoba zuhanyzó", "Nagy ház konyha", "Nagy ház konyha baloldal", "Nagy ház konyha jobboldal", "Nagy ház konyha jobboldal1",
+	"Nagy ház gépészeti helyiség", "Kisebbik fürdőszoba zuhanykabin",  "Kisebbik fürdőszoba mosdó", "Kisebbik fürdőszoba tisztítóanyag és eszköz tároló sarok",  "Kisebbik fürdőszoba WC sarok", "Nagy ház kis fedett terasz", 
+	"Teraszlépcső kert felé", "Teraszlépcső utca felé",
 ];
 
 // --- MÁSODIK (KIS) HÁZ GALÉRIÁJA ---
